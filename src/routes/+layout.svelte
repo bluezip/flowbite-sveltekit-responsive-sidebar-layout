@@ -90,11 +90,6 @@
 			<NavLi class="lg:px-2 lg:mb-0" active={activeUrl === '/pages/about'} href="/pages/about"
 				>About</NavLi
 			>
-			<NavLi
-				class="lg:px-2 lg:mb-0"
-				href="https://github.com/shinokada/flowbite-sveltekit-responsive-sidebar-layout"
-				>GitHub</NavLi
-			>
 		</NavUl>
 		<div class="flex items-center ml-auto">
 			<DarkMode class="inline-block dark:hover:text-white hover:text-gray-900" />
@@ -147,6 +142,7 @@
 	</Sidebar>
 </Drawer>
 
+<!-- svelte:component  -->
 <div class="flex px-4 mx-auto w-full">
 	<main class="lg:ml-72 w-full mx-auto">
 		<slot />

@@ -1,13 +1,13 @@
 ---
 dir: blog
-title: 'Awesome article 2'
+title: 'Awesome article '
 ---
 
 <script>
   import { Img, Heading, P } from 'flowbite-svelte'
 </script>
 
-<Img src="/images/image-1@2x.jpg" alt="sample 1" size="max-w-mx lg:max-w-lg" alignment="mx-auto" />
+<Img src="/images/image-1@2x.jpg" alt="sample 1" size="max-w-lg" alignment="mx-auto" />
 
 <Heading class="p-8" tag="h1" customSize="text-3xl">{title}</Heading>
 
