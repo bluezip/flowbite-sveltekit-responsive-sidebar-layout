@@ -43,7 +43,6 @@ const fetchMarkdownPosts = async () => {
 		iterableSvelteFiles.map(async ([path, resolver]) => {
 			// @ts-ignore
 			const { metadata } = await resolver();
-			console.log(path);
 			const filePath = path.slice(18, -7);
 			return {
 				meta: metadata,

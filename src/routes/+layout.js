@@ -1,3 +1,4 @@
+// @ts-ignore
 export const load = async ({ fetch }) => {
 	try {
 		const response = await fetch('/api');
